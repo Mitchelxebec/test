@@ -1,0 +1,574 @@
+/* I put font-size of 32px and padding bottom to all h2 in .container class */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 1px 1px 5px;
+}
+
+.navigation {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    color: #5e72e4;
+    font-size: 47px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: inline;
+    padding: 0;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #f5576c;
+}
+
+.nav-menu li a:hover {
+    text-decoration: underline;
+    color: #5e72e4;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #4facfe;
+    padding: 40px;
+    color: white;
+    margin-top: 88px;
+}
+
+.hero-section h2 {
+    font-size: 33px;
+    padding-bottom: 10px;
+}
+
+.hero-content {
+    margin: auto;
+    text-align: center;
+}
+
+.hero-content button {
+    background-color: white;
+    color: #4facfe;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 3px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-content button:hover {
+    color: #f5576c;
+}
+
+.hero-image {
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* features-section */
+.features-section,
+.courses-section {
+    background-color: #fdfeff;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.container h2 {
+    font-size: 33px;
+    padding-bottom: 10px;
+}
+
+.features-grid {
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.feature-title {
+    color: #f5576c;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.feature-description {
+    width: 290px;
+}
+
+/* Courses section */
+.courses-section {
+    background-color: #f093fb;
+}
+
+.courses-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.course-card {
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.course-card:hover {
+    transform: scale(1.03);
+}
+
+.course-price {
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px;
+    border-bottom: 1px solid #f5576c;
+}
+
+.course-description {
+    text-align: start;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.course-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.course-duration {
+    color: #5e72e4;
+}
+
+.course-level {
+    color: #f5576c;
+}
+
+/* About Section */
+.about-section {
+    max-width: 900px;
+    margin: auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-style: 12px;
+}
+
+.testimonials-section .section-title,
+.courses-section h2 {
+    color: white;
+}
+
+.stats-container {
+    padding-top: 20px;
+}
+
+.stat-item span {
+    padding-top: 10px;
+    font-weight: bold;
+    gap: 30px;
+}
+
+/* testimonial section */
+.testimonials-section {
+    background-color: #f093fb;
+}
+
+.testimonials-section .container {
+    justify-content: center;
+    text-align: center;
+    padding-block: 80px;
+}
+
+.testimonials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonial-content {
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.tesitimonial-card:hover {
+    transform: scale(1.03);
+}
+
+/* contact section */
+.contact-section {
+    flex: 1;
+    padding-bottom: 120px;
+}
+
+
+.contact-section .container {
+    margin: auto;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    padding-block: 80px;
+    flex-wrap: wrap;
+    display: flex;
+    padding-bottom: 70px;
+    margin-bottom: 100px;
+}
+
+.contact-details,
+.contact-icon {
+    margin-block: 25px;
+}
+
+.contact-content {
+    background-color: white;
+    width: 100%;
+    padding: 50px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-title {
+    color: #f5576c;
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    min-width: 390px;
+    height: 50px;
+    border-radius: 20px;
+    gap: 15px;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 360px;
+    height: 50px;
+    padding: 9px 9px 20px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 10px 10px 15px #c7c4c45d, inset -10px -10px 15px #ffffff;
+}
+
+form input:focus {
+    border: 2px solid #f5576c;
+}
+
+form .form-group textarea {
+    height: 120px;
+    max-width: 360px;
+    padding-top: 15px;
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 15px #c7c4c45d, inset -10px -10px 15px #ffffff;
+    border: none;
+    outline: none;
+}
+
+form .form-group textarea:focus {
+    border: 2px solid #f5576c;
+}
+
+form .submit-button {
+    border: none;
+    outline: none;
+    background: #f5576c;
+    padding: 9px;
+    padding-top: 5px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    max-width: 350px;
+    transition: background 0.3s ease-in-out;
+}
+
+form .submit-button:hover {
+    background-color: #4facfe;
+    cursor: pointer;
+}
+
+.contact-content {
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-details h3 {
+    text-align: start;
+}
+
+.contact-details p {
+    font-size: 12px;
+}
+
+.contact-details {
+    padding-bottom: 10px;
+}
+
+label {
+    text-align: left;
+    font-size: 20px;
+
+}
+
+/* footer */
+footer {
+    padding-bottom: 20px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5e72e4;
+    color: white;
+    max-width: auto;
+    gap: .5rem;
+    height: auto;
+    margin-top: auto;
+}
+
+.container .footer-content {
+    padding-block: 50px;
+    max-width: 90vw;
+    text-align: center;
+}
+
+.social-links a {
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.footer-content .footer-links li {
+    list-style: none;
+}
+
+.footer-content .footer-links li a {
+    text-decoration: none;
+}
+
+.footer-section a {
+    color: #fdfeff;
+    font-size: 15px;
+}
+
+.footer-bottom {
+    font-size: 12px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.main-footer h4 {
+    color: #fdfeff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-content>.footer-section:nth-child(2),
+.footer-content>.footer-section:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* wrap “Quick Links” & “Follow Us” in a horizontal sub‑row */
+.footer-content>.footer-section:nth-child(2),
+.footer-content>.footer-section:nth-child(3) {
+    flex: 1 1 130px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* 6. Footer stays at the bottom */
+.main-footer {
+    background-color: #5e72e4;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Tablets: max-width 768px */
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .courses-grid,
+    .features-grid,
+    .testimonials-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-card,
+    .testimonial-content {
+        width: 90%;
+    }
+
+    .testimonials-grid {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-content {
+        width: 100%;
+        max-width: 400px;
+        margin-left: 0;
+    }
+
+    .hero-content button {
+        padding: 10px 30px;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    form input,
+    form .form-group textarea,
+    form .submit-button {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-form {
+        min-width: 100%;
+    }
+
+    .logo h1 {
+        font-size: 36px;
+    }
+}
+
+/* Phones: max-width 480px */
+@media (max-width: 480px) {
+    .main-header {
+        position: static;
+    }
+
+    .logo h1 {
+        font-size: 28px;
+    }
+
+    .nav-menu li {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .hero-section {
+        padding: 30px 15px;
+        margin-top: 0;
+    }
+
+    .hero-section h2 {
+        font-size: 26px;
+    }
+
+    .course-description,
+    .course-meta {
+        text-align: center;
+    }
+
+    .section-title,
+    label {
+        font-size: 16px;
+    }
+
+    .testimonials-section .container {
+        max-width: 100%;
+        padding: 10px 16px;
+    }
+
+    .footer-content-row {
+        gap: 16px;
+    }
+
+    .footer-links a,
+    .social-links a {
+        font-size: 0.75rem;
+    }
+
+    .footer-content div:nth-last-child(-n+2) {
+        font-size: 18px;
+        gap: 20px;
+    }
+
+    .footer-content div:first-child {
+        font-size: 20px;
+    }
+}
